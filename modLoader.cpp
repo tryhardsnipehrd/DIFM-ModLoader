@@ -16,7 +16,7 @@ int main(int argc, char * argv[])
 	// Grab the filepath, and check if it equals newest or latest
 	std::cout << "Please enter the version you want. e.g. 1.0.1\n";
 	std::getline(std::cin, version);
-	if (version != "newest" & version != "latest") {isNewest = false;}
+	if (version != "newest" && version != "latest") {isNewest = false;}
 	
 	// Slap those fuckers together
 	version1.append(version);
